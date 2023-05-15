@@ -46,72 +46,31 @@ nav a:hover{
 }
 
 
-.barrio{
+main{
     width: 940px;
     margin: 0 auto;
-    padding: 50px;
 }
 
-.barrio img{
-    width: 150px;
+form{
+    margin: 40px auto;
 }
 
-.barrio li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
-    
+form label , form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
 }
 
-.barrio li:hover {
-    border-color: #c78c19;
-
-}
-
-.barrio li:active {
-    border-color: green;
-    
-}
-
-.barrio h2{
-    font-size: 30px;
-    margin-bottom: 20px ;
-    font-weight: bold;
-    
-}
-
-.barrio li:hover h2 {
-    font-size: 40px;
-    
-}
-
-.barrioDescripcion{
-    font-size: 18px;
-    margin: 20px auto;
-}
-
-.barrioItem{
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.barrio li:hover .barrioItem{
-    font-size: 30px;
-    text-decoration: underline;
+.input-padron{
+    display: block;  
+    margin: 0 0 20px;
+    padding: 8px 15px; 
+    width: 50%;
 }
 
 
-.barrio li .barrioItem a{
-    text-decoration: none;
-    color: black;
-    
+.checkbox{
+    margin: 20px 0;
 }
 
 footer{

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./sources/css/contact.css">
+    <title>contact</title>
+</head>
+<body>
+    <header>
+        <div class="caja1">
+                <h1> <img src="./sources/img/02img-infopage/logo.png" alt="logo-barrio"></h1>
+            <nav>
+                <ul>
+                    <li> <a href="./inicio.html">inicio</a>   </li> 
+                    <li> <a href="./inicio.html">informacion</a>   </li> 
+                    <li> <a href="#">Comunidad </a>  </li> 
+                    <li> <a href="#">Contacto</a>   </li> 
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+        <main>
+            <form action="">
+                <label for=""nombreAp > Nombre y apellido </label>
+                    <input type="text" name="" id="nombreAp" class="input-padron"
+                    required >
+
+                <label for="correo">Correo Electronico</label>
+                    <input type="email" id="correo" class="input-padron"
+                    required placeholder="dominio@correo.com">
+
+                <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="input-padron"
+                    required placeholder="(XX) XXX XXX XX XX">
+
+                    <label for="mensaje">Mensajes</label>
+                    <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron"
+                     >
+                    </textarea>
+                       
+                <fieldset>
+                    <legend> ¿Cómo le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email">
+                        <input type="radio" name="contacto" id="radio-email" value="email">
+                        Email
+                            </label>
+                    
+
+                    <label for="radio-telefono">
+                        <input type="radio"  name="contacto"   id="radio-telefono" value="telefono">
+                        Teléfono
+                    </label>
+                    
+
+                    <label for="radio-WhatsApp">
+                        <input type="radio"  name="contacto" id="radio-WhatsApp" value="WhatsApp" 
+                        checked>
+                        WhatsApp
+                    </label>    
+                </fieldset>
+
+            <fieldset>
+                <legend> ¿en cual horario prefiere ser atendido?</legend>
+                <select name="" id="">    
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+
+                        <label class="checkbox" for=""> 
+                            <input type="checkbox" checked>
+                            ¿le gustaria recibir notificaciones de la pagina barrio?
+                        </label>    
+
+                    <input type="submit" value="Enviar formulario">
+                        </form>
+        
+        </main>
+
+
+        <footer>
+            <img src="./sources/img/02img-infopage/logo.png" alt="">
+                <p class="copy">&copy; Copyright derechos reservados - 2023</p>
+                    
+        </footer>
+    
+</body>
+</html>
