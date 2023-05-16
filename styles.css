@@ -1,13 +1,37 @@
-/* 
+
+
+header img{
+    width: 100px;
+}
+
+header {
+   background: #ccc;
+   padding: 10px;
+}
+
+.caja1{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+
 nav{
     position: absolute;
-    top: 50px;
-    right: 0;
+    top: 20px;
+    right: 10px;
+    padding: 10px 40px;
+    
 }
 
 nav li{
     display: inline;
     margin: 0 0 0 15px ;
+    padding: 10px 20px;
+    background-color: #c78c19;
+    
+
 }
 
 nav a{
@@ -19,15 +43,17 @@ nav a{
 }
 
 nav a:hover{
-    color: #c78c19;
+    color: #fff;
     text-decoration: underline;
 
 }
 
 
-*/
 
 
+
+
+/*
 header{
     background-color: #ccc;
     padding: 0.1px ;
@@ -40,6 +66,9 @@ header img{
     padding: 8px ;
     
 }
+*/
+
+
 
 .imagenBanner{
     background: url(/sources/img/banner02.png);
@@ -52,20 +81,36 @@ header img{
     
 }
 
+.codigo{
+    width: 15%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
 .container1{
     padding: 0.5% 10% 3% 10%;
     background: #ccc;
 }
 
-.tituloPrincipal{
-    text-align: left;
-    padding-left: 30px;
-    margin: 30px;
+.container1 p{
+    margin: 0 0 1em;
+    background: #ccc;
 }
 
+.container1 strong{
+    font-weight: bold;
+}
 
-.tituloCentro {
+.container1 em{
+    font-style: italic;
+
+}
+
+.tituloPrincipal {
     text-align: center;
+    margin: 0 0 1em;
+    font-size: 2em;
+    clear: left;
 }
 
 p {
@@ -86,6 +131,7 @@ em strong {
     background: #fff;
     padding: 0.6%  0% 0.6% 5%;
     
+    
 }
 
 .container2 img{
@@ -96,34 +142,43 @@ em strong {
 
 .tituloZurdo{
     padding-left: 3%;
-    text-align: left;
+    text-align: center;
     margin: 50px auto;
-    letter-spacing: 50px;
+    letter-spacing: 60px;
     
 }
 
 
 .items{
-    font-style: italic;
-    font-size: 25px;
+    font-size: 120%;
+    padding: 15px 0 5px 10px;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 0 0 50%;
     
-    
-
 }
 
 .items a{
     text-decoration: none;
+    color:black;
     
 }
 
 
-ul{
+.laterales {
     display: inline-block;
     vertical-align: top;
-    width: 30%;
-    margin-right: 10% ;
+    width: 32%;
+    margin-right: 5% ;
+    
     
 }
+
+
 
 .mapa{
     width: 50%;

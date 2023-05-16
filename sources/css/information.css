@@ -16,7 +16,7 @@ header {
     width: 940px;
     position: relative;
     margin: 0 auto;
-    
+       
 }
 
 
@@ -45,6 +45,16 @@ nav a:hover{
 
 }
 
+
+.titulo{
+    font-size: 25px;
+    width: 100%;
+    color: black;
+    display:inline-block;
+    font-weight: bold;
+    padding: 30px 10px;
+       
+}
 
 .barrio{
     width: 940px;
