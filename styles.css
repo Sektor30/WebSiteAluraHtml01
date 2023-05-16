@@ -71,7 +71,7 @@ header img{
 
 
 .imagenBanner{
-    background: url(/sources/img/banner02.png);
+    background: url(././sources/img/banner02.png);
     height: 350px;
 }
 
@@ -88,13 +88,16 @@ header img{
 }
 
 .container1{
-    padding: 0.5% 10% 3% 10%;
+    padding: 0.5% 10% 3% 20%;
     background: #ccc;
+    
 }
 
 .container1 p{
     margin: 0 0 1em;
     background: #ccc;
+    width: 80%;
+    
 }
 
 .container1 strong{
@@ -136,6 +139,8 @@ em strong {
 
 .container2 img{
         margin-bottom: 20px ;
+        width: 500px;
+        border: 1px solid green;
     
 }
 
@@ -187,7 +192,7 @@ em strong {
 footer{
     
     text-align: center;
-    background: url(/sources/img/02img-infopage/beautiful-nature-g209bfd948_1280.jpg);
+    background: url(././sources/img/02img-infopage/beautiful-nature-g209bfd948_1280.jpg);
     height: 250px;
     
     
