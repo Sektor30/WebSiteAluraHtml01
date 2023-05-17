@@ -1,3 +1,8 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 
 header img{
@@ -111,10 +116,33 @@ header img{
 
 .tituloPrincipal {
     text-align: center;
-    margin: 0 0 1em;
+    margin: 1em 0 1em;
     font-size: 2em;
     clear: left;
 }
+
+.mapa {
+    padding: 1em 0 2em 12%;
+}
+
+.mapa p{
+    margin: 0 0 2em 50%;
+    text-align: center;
+}
+
+.tituloSecundario{
+    text-align: center;
+    margin: 1em 0 1em 50%;
+    font-size: 24px;
+    clear: left;
+ 
+
+}
+
+.mapa{
+    width: 50%;
+}
+
 
 p {
     text-align: center;
@@ -140,7 +168,6 @@ em strong {
 .container2 img{
         margin-bottom: 20px ;
         width: 500px;
-        border: 1px solid green;
     
 }
 
@@ -183,11 +210,11 @@ em strong {
     
 }
 
-
-
-.mapa{
-    width: 50%;
+.video{
+    width: 560px;
+    margin: 2em auto ;
 }
+
 
 footer{
     
