@@ -7,11 +7,14 @@ body{
 
 header img{
     width: 100px;
+    
+    padding: 20px auto;
 }
 
 header {
    background: #ccc;
    padding: 10px;
+   
 }
 
 .caja1{
@@ -19,15 +22,17 @@ header {
     position: relative;
     margin: 0 auto;
     
+    
 }
 
 
 nav{
     position: absolute;
+    
     top: 20px;
     right: 10px;
-    padding: 10px 40px;
-    width: 50%;
+    padding: 30px 0 30px 10px;
+    width: 65%;
     
 }
 
@@ -105,25 +110,32 @@ header img{
 }
 
 .container1 p{
-    margin: 0 0 1em;
+    margin: 0 40% 0 1%;
+    padding: 10px 40px;
     background: #ccc;
-    width: 80%;
+    width: 70%;
+    
+    font-size: 24px ;
     
 }
 
 .container1 strong{
     font-weight: bold;
+    
 }
 
 .container1 em{
     font-style: italic;
-
+    
 }
 
 .tituloPrincipal {
     text-align: center;
-    margin: 1em 0 1em;
+    margin: 1em 0 1em 0;
+    padding-right: 30%;
+    letter-spacing: 2px;
     font-size: 2em;
+    
     clear: left;
 }
 
@@ -199,6 +211,7 @@ em strong {
     /*   background-color: #ccc; */  
     padding: 0.6%  0% 0.6% 5%;
     background: linear-gradient( #ccc,rgb(143, 143, 143), #ccc ) ;
+    
  
      
 }
@@ -309,7 +322,14 @@ footer img{
 }
 
 
+
+
+
+
+
         /*MEDIA QueRI*/
+
+
 
         @media screen and  (max-width:950px){
             h1{
@@ -318,14 +338,18 @@ footer img{
             
             nav{
                 position:static;
-                margin: 3em auto;
+                padding: 0 0 0 30%;
                 
+                width: 65%;
             }
 
             nav li{
                 display: block;
-                padding: 10px 20px;
-                width: 40%;
+                padding: 10px auto;
+                margin: 10px auto;
+                
+                
+                
             }
 
             ul{
@@ -372,12 +396,14 @@ footer img{
                 nav{
                     position:static;
                     margin: 3em auto;
+                    width: 90%;
                     
                 }
 
                 nav li{
                     display: block;
                     padding: 10px 20px;
+                    
                     
                 }
 
@@ -413,10 +439,12 @@ footer img{
 
             }
 
+           
+
                 @media screen and  (max-width:380px){
 
 
-                }  h1{
+                  h1{
                     text-align: center;
                 }    
 
@@ -424,16 +452,19 @@ footer img{
                     position:static;
                     margin: 3em auto;
                     
+                    
                 }
 
                 nav li{
                     display: block;
                     margin: 20px auto;
-                    padding: 10px 40px;
-                    
+                    padding: 10px 2px;
+                    width: 50%;
                     
                 }
 
                 ul{
                     width: 100%;
+                }
+
                 }
